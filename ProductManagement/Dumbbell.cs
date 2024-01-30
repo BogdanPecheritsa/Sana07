@@ -1,8 +1,5 @@
-﻿using ProductManagement;
-using System;
+﻿namespace ProductManagment {
 
-namespace ProductManagement
-{
     public class Dumbbell : Product
     {
         protected double weight;

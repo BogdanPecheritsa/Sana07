@@ -1,4 +1,4 @@
-﻿namespace ProductManagement
+﻿namespace ProductManagment
 {
     public abstract class Product
     {
@@ -28,7 +28,7 @@
         protected int count;
         public int Count
         {
-            get => Count;
+            get => count;
             set
             {
                 if (value >= 0)
@@ -36,7 +36,6 @@
                 else throw new ArgumentException("Count cannot be negative.");
             }
         }
-
 
         public abstract string Display();
 

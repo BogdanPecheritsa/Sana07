@@ -1,7 +1,4 @@
-﻿using System;
-
-namespace ProductManagement
-{
+﻿namespace ProductManagment {
     public class ShoppingCart
     {
         protected List<Product> products;
