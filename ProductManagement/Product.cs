@@ -9,10 +9,9 @@
             set
             {
                 if (value == null)
-                {
                     throw new ArgumentException("Name cannot be null.");
-                }
-                name = value;
+                else
+                    name = value;
             }
         }
         protected double price;
