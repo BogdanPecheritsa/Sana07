@@ -4,7 +4,7 @@ namespace ProductManagement
 {
     public class ShoppingCart
     {
-        private List<Product> products;
+        protected List<Product> products;
 
         public ShoppingCart()
         {
